@@ -63,7 +63,6 @@ install.packages("seqinr")
 cd dna-dotplot-alignment
 ```
 **2. Run the Dot Plot implementation:**
-  <pre>
 Open main.R or DotPlotFunc.R in your preferred R environment (e.g., RStudio).<br>
 To visualize the alignment between two DNA strings, you can use the function defined in the file:
 ```bash
@@ -72,13 +71,13 @@ seq1 <- "AGCTAGC"
 seq2 <- "CGCTAGT"
 plot_dotplot(seq1, seq2)
 ```
+<br>
 **3. Compare with dotPlot function:**
 You can also compare your dot plot output with the built-in dotPlot function from the seqinr package:
   ```bash
   library(seqinr)
 dotPlot(seq1, seq2)
 ```
-</pre>
   
 ## Comparison with dotPlot Function
 This implementation is designed to be compared against the R dotPlot function from the seqinr package. The main difference is that this code allows more customization and flexibility, which can be particularly useful in research settings.
@@ -87,19 +86,17 @@ This implementation is designed to be compared against the R dotPlot function fr
 You can run both your implementation and the seqinr::dotPlot function on the same sequences and visually compare the outputs. This helps to ensure that the method is correctly implemented.
 
 ### Examples
-<pre>
-Here are some examples of aligning two DNA strings:
-**Example 1:**
-Sequence 1: AGCTAGC
-Sequence 2: CGCTAGT
-The resulting dot plot would visualize the alignment of matching bases between these sequences.
+Here are some examples of aligning two DNA strings:<br>
+**Example 1:**<br>
+Sequence 1: AGCTAGC<br>
+Sequence 2: CGCTAGT<br>
+The resulting dot plot would visualize the alignment of matching bases between these sequences.<br>
 
-**Example 2:**
+**Example 2:**<br>
 
-Sequence 1: ATGCATGC
-Sequence 2: TGCATGCA
+Sequence 1: ATGCATGC<br>
+Sequence 2: TGCATGCA<br>
 The resulting dot plot shows matching regions that can help identify conserved sections of the sequences.
-</pre>
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue to discuss any changes, features, or bug fixes.
 <ol>
