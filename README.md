@@ -56,13 +56,14 @@ This implementation allows you to:
 install.packages("seqinr")
 ```
 <h2 id='Usage'>Usage</h2>
-<p>
+
 **1. Clone the repository:**
   ```bash
   git clone https://github.com/yourusername/dna-dotplot-alignment.git
 cd dna-dotplot-alignment
 ```
 **2. Run the Dot Plot implementation:**
+  <pre>
 Open main.R or DotPlotFunc.R in your preferred R environment (e.g., RStudio).<br>
 To visualize the alignment between two DNA strings, you can use the function defined in the file:
 ```bash
@@ -77,7 +78,7 @@ You can also compare your dot plot output with the built-in dotPlot function fro
   library(seqinr)
 dotPlot(seq1, seq2)
 ```
-</p>
+</pre>
   
 ## Comparison with dotPlot Function
 This implementation is designed to be compared against the R dotPlot function from the seqinr package. The main difference is that this code allows more customization and flexibility, which can be particularly useful in research settings.
@@ -86,8 +87,8 @@ This implementation is designed to be compared against the R dotPlot function fr
 You can run both your implementation and the seqinr::dotPlot function on the same sequences and visually compare the outputs. This helps to ensure that the method is correctly implemented.
 
 ### Examples
+<pre>
 Here are some examples of aligning two DNA strings:
-
 **Example 1:**
 Sequence 1: AGCTAGC
 Sequence 2: CGCTAGT
@@ -98,7 +99,7 @@ The resulting dot plot would visualize the alignment of matching bases between t
 Sequence 1: ATGCATGC
 Sequence 2: TGCATGCA
 The resulting dot plot shows matching regions that can help identify conserved sections of the sequences.
-
+</pre>
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue to discuss any changes, features, or bug fixes.
 <ol>
@@ -107,28 +108,6 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
   <li>Submit a pull request.
 </li>
 </ol>
-
-<h2 id='Complexity_Analysis'>Complexity Analysis</h2>
-<h3>Recursive Implementation</h3>
-<strong>Time Complexity:</strong> Exponential, specifically O(2^n), as each function call spawns two more calls.<br>
-<strong>Space Complexity:</strong> O(n) due to the depth of the recursion stack.<br>
-<h3>Dynamic Programming</h3>
-<strong>Time Complexity:</strong> O(n), as it computes each Fibonacci number once.<br>
-<strong>Space Complexity:</strong> O(n) for storing the Fibonacci sequence up to n.<br>
-<h3>Matrix Exponentiation</h3>
-<strong>Time Complexity:</strong> O(n^3) due to matrix multiplication in each loop iteration.<br>
-<strong>Space Complexity:</strong> O(1), constant space for storing matrices.<br>
-<h3>Optimized Matrix Exponentiation</h3>
-<strong>Time Complexity:</strong> O(log n) because of fast exponentiation.<br>
-<strong>Space Complexity:</strong> O(1), as it requires a fixed amount of space for matrices.<br>
-
-
-<h2 id = 'Contributing'>Contributing</h2>
-<p>
-Contributions to this project are welcome. You can contribute by improving the code efficiency, adding new features, or fixing bugs. Please initiate a pull request or open an issue if you have suggestions or feedback.
-</p>
-<h2 id="Languages_Used"> Languages Used</h2>
-R Packages 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
