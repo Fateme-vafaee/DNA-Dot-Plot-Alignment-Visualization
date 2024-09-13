@@ -79,7 +79,7 @@ You can also compare your dot plot output with the built-in dotPlot function fro
 dotPlot(seq1, seq2)
 ```
   
-## Comparison with dotPlot Function
+<h2 id="Comparison_with_dotPlot_Function">Comparison with dotPlot Function</h2>
 This implementation is designed to be compared against the R dotPlot function from the seqinr package. The main difference is that this code allows more customization and flexibility, which can be particularly useful in research settings.
 
 ## Running the Comparison
