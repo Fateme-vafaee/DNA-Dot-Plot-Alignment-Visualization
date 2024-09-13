@@ -72,6 +72,7 @@ seq2 <- "CGCTAGT"
 plot_dotplot(seq1, seq2)
 ```
 <br>
+
 **3. Compare with dotPlot function:**
 You can also compare your dot plot output with the built-in dotPlot function from the seqinr package:
   ```bash
@@ -87,13 +88,13 @@ You can run both your implementation and the seqinr::dotPlot function on the sam
 
 ### Examples
 Here are some examples of aligning two DNA strings:<br>
+
 **Example 1:**<br>
 Sequence 1: AGCTAGC<br>
 Sequence 2: CGCTAGT<br>
 The resulting dot plot would visualize the alignment of matching bases between these sequences.<br>
 
 **Example 2:**<br>
-
 Sequence 1: ATGCATGC<br>
 Sequence 2: TGCATGCA<br>
 The resulting dot plot shows matching regions that can help identify conserved sections of the sequences.
