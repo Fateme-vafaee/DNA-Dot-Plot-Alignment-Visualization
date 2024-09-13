@@ -28,10 +28,9 @@
     <li><a href="#Methods">Methods Implemented</a></li>
     <li><a href="#Requirements">Requirements</a></li>
     <li><a href="#Usage">Usage</a></li>
-    <li><a href="#Comparison">Comparison with dotPlot Function</a></li>
+    <li><a href="#Comparison_with_dotPlot_Function">Comparison with dotPlot Function</a></li>
     <li><a href="#Examples">Examples</a></li>
     <li><a href="#Contributing">Contributing</a></li>
-    <li><a href="#License">License</a></li>
   </ol>
 </details>
 
